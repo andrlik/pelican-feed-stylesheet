@@ -3,7 +3,7 @@ pelican-feed-stylesheet: A Plugin for Pelican
 
 [![Build Status](https://img.shields.io/github/workflow/status/pelican-plugins/pelican-feed-stylesheet/build)](https://github.com/andrlik/pelican-feed-stylesheet/actions)
 [![PyPI Version](https://img.shields.io/pypi/v/pelican-feed-stylesheet)](https://pypi.org/project/pelican-feed-stylesheet/)
-![License](https://img.shields.io/pypi/l/pelican-pelican-feed-stylesheet?color=blue)
+![License](https://img.shields.io/pypi/l/pelican-feed-stylesheet?color=blue)
 
 Enables use of xml stylesheets for human-readable feed generation.
 
