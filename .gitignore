@@ -3,3 +3,4 @@ poetry.lock
 .nova/*
 **/__pycache__/**
 .pytest_cache/*
+dist/*
