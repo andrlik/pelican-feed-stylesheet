@@ -17,7 +17,11 @@ This plugin can be installed via:
 Usage
 -----
 
-<<Add plugin details here>>
+Add the following to settings to enable:
+
+```python
+FEED_STYLESHEET = "/YOUR_URL_HERE.xls"
+```
 
 Contributing
 ------------

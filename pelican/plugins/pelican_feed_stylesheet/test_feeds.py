@@ -1,6 +1,8 @@
 import io
+
 import pytest
-from .feeds import StyledAtom1Feed, StyledRssUserland091Feed, StyledRss201rev2Feed
+
+from .feeds import StyledAtom1Feed, StyledRss201rev2Feed, StyledRssUserland091Feed
 
 
 @pytest.mark.parametrize(

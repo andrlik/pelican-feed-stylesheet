@@ -1,9 +1,6 @@
-from feedgenerator import (
-    Atom1Feed,
-    RssFeed,
-)
-from feedgenerator.django.utils.xmlutils import SimplerXMLGenerator
+from feedgenerator import Atom1Feed, RssFeed
 from feedgenerator.django.utils.feedgenerator import rfc2822_date
+from feedgenerator.django.utils.xmlutils import SimplerXMLGenerator
 
 
 class StyledSimplerXMLGenerator(SimplerXMLGenerator):
@@ -93,7 +90,7 @@ class StyledRss201rev2Feed(StyledRssFeed):
         # Author information.
         if item["author_name"] and item["author_email"]:
             handler.addQuickElement(
-                "author", "%s (%s)" % (item["author_email"], item["author_name"])
+                "author", "{} ({})".format(item["author_email"], item["author_name"])
             )
         elif item["author_email"]:
             handler.addQuickElement("author", item["author_email"])
