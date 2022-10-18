@@ -1,2 +1,5 @@
 poetry.lock
+*.pyc
 .nova/*
+**/__pycache__/**
+.pytest_cache/*
