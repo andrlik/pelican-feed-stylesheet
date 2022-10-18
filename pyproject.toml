@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pelican-pelican-feed-stylesheet"
+name = "pelican-feed-stylesheet"
 version = "0.0.1"
 description = "Enables use of xml stylesheets for human-readable feed generation."
 authors = ["Daniel Andrlik <daniel@andrlik.org>"]
