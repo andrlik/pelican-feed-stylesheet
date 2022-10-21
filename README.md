@@ -1,7 +1,7 @@
 pelican-feed-stylesheet: A Plugin for Pelican
 ====================================================
 
-[![Build Status](https://img.shields.io/github/workflow/status/andrlik/pelican-feed-stylesheet/build)](https://github.com/andrlik/pelican-feed-stylesheet/actions)
+[![Build Status](https://img.shields.io/github/workflow/status/andrlik/pelican-feed-stylesheet/build/main)](https://github.com/andrlik/pelican-feed-stylesheet/actions)
 [![PyPI Version](https://img.shields.io/pypi/v/pelican-feed-stylesheet)](https://pypi.org/project/pelican-feed-stylesheet/)
 ![License](https://img.shields.io/pypi/l/pelican-feed-stylesheet?color=blue)
 
