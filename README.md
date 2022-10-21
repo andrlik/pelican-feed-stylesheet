@@ -21,6 +21,8 @@ Add the following to settings to enable:
 
 ```python
 FEED_STYLESHEET = "/YOUR_URL_HERE.xls"
+
+PLUGINS.append("pelican_feed_stylesheet")
 ```
 
 Contributing
